@@ -1,3 +1,6 @@
+install.packages("RSpectra")
+library(RSpectra)
+
 usps.train <- read.table("zip.train.txt", header=F, sep="")
 usps.test <- read.table("zip.test.txt", header=F, sep="")
 
